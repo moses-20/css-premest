@@ -1,0 +1,42 @@
+/* element selector */
+h1 {
+  text-align: center;
+}
+
+/* id selector */
+#about-section {
+  background-color: beige;
+}
+
+#contact-section {
+  background-color: aquamarine;
+}
+
+/* class selector */
+.nav-links {
+  color: coral;
+}
+
+/* descendant selector */
+header h2 {
+  color: coral;
+}
+
+/* direct descendant selector */
+div > h4 {
+  color: grey;
+}
+
+/* pseudo selectors */
+button:hover {
+  background-color: aquamarine;
+}
+
+button:active {
+  background-color: coral;
+}
+
+/* universal selector */
+/* * {
+  margin: 0;
+} */
