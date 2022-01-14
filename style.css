@@ -1,42 +1,35 @@
-/* element selector */
-h1 {
+/* font-family */
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap");
+* {
+  font-family: "Quicksand", sans-serif;
+}
+
+/* color */
+h3 {
+  color: coral;
+}
+
+/* font-size */
+h3 {
+  font-size: x-large;
+}
+
+/* font-weight */
+h4 {
+  font-weight: 700;
+}
+
+h4 {
   text-align: center;
 }
 
-/* id selector */
-#about-section {
-  background-color: beige;
+/* text-decoration */
+@counter-style pointer {
+  system: cyclic;
+  symbols: 🥇 🥈 🥉;
+  suffix: " ";
 }
 
-#contact-section {
-  background-color: aquamarine;
+li {
+  list-style-type: pointer;
 }
-
-/* class selector */
-.nav-links {
-  color: coral;
-}
-
-/* descendant selector */
-header h2 {
-  color: coral;
-}
-
-/* direct descendant selector */
-div > h4 {
-  color: grey;
-}
-
-/* pseudo selectors */
-button:hover {
-  background-color: aquamarine;
-}
-
-button:active {
-  background-color: coral;
-}
-
-/* universal selector */
-/* * {
-  margin: 0;
-} */
