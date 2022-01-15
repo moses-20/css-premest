@@ -1,0 +1,36 @@
+/* flex display */
+main {
+  display: flex;
+  flex-wrap: wrap;
+  /* flex-direction: column; */
+}
+
+/* difference between ITEMS and CONTENT */
+/* 
+  ITEMS - elements in a flex layout
+  CONTENT - (invisible) boundary grid-lines of flex-tems
+*/
+
+/* alignment */
+/* main {
+  align-items: baseline;
+  align-content: flex-end;
+}
+
+#sec1 {
+  align-self: flex-start;
+}
+
+#sec5 {
+  align-self: flex-end;
+} */
+
+/* justify */
+/* main {
+  justify-content: flex-end;
+} */
+
+/* flex properties */
+/* #sec4 {
+  flex-grow: 1;
+} */
