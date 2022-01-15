@@ -1,39 +1,64 @@
-/* setup */
-html,
-body,
-main {
+* {
   margin: 0;
   padding: 0;
+}
+
+/* html, */
+body {
   height: 100%;
-}
-
-section {
-  margin: 0 5px;
-  padding: 0 10px;
   display: flex;
-  align-items: center;
+  flex-direction: column;
 }
 
-h1 {
+header {
+  background-color: aqua;
   text-align: center;
 }
 
-.sec1 {
+header > h1 {
+  margin: 20px 0;
+}
+
+main {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+#content {
+  flex: 1;
+}
+
+#sec1 {
+  display: flex;
+  margin: 5px 0;
+}
+
+#sec1 > * {
+  flex: 1;
+  height: 300px;
+  margin: 0 5px;
+}
+
+#card1 {
+  background-color: red;
+}
+
+#card2 {
+  background-color: blue;
+}
+
+#card3 {
+  background-color: green;
+}
+
+#card4 {
+  height: 400px;
   background-color: coral;
-  height: 200px;
 }
 
-.sec2 {
-  background-color: cornflowerblue;
-  height: 500px;
-}
-
-.sec3 {
-  background-color: crimson;
-  height: 150px;
-}
-
-.sec4 {
-  background-color: greenyellow;
-  height: 350px;
+footer {
+  text-align: center;
+  font-weight: bold;
+  font-size: larger;
 }

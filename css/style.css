@@ -1,36 +1,23 @@
-/* flex display */
-main {
-  display: flex;
-  flex-wrap: wrap;
-  /* flex-direction: column; */
-}
-
-/* difference between ITEMS and CONTENT */
+/* MEDIA BREAKPOINTS */
 /* 
-  ITEMS - elements in a flex layout
-  CONTENT - (invisible) boundary grid-lines of flex-tems
+    MOBILE:  425px;
+    TABLET:  768px;
+    DESKTOP: 1024px;
 */
 
-/* alignment */
-/* main {
-  align-items: baseline;
-  align-content: flex-end;
+@media screen and (max-width: 425px) {
+  #sec1 {
+    flex-wrap: wrap;
+  }
+
+  #sec1 > * {
+    flex-basis: 100%;
+    margin-top: 5px;
+  }
 }
 
-#sec1 {
-  align-self: flex-start;
+@media screen and (min-width: 426px) {
+  #card1 {
+    background-color: yellow;
+  }
 }
-
-#sec5 {
-  align-self: flex-end;
-} */
-
-/* justify */
-/* main {
-  justify-content: flex-end;
-} */
-
-/* flex properties */
-/* #sec4 {
-  flex-grow: 1;
-} */
