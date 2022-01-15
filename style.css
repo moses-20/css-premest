@@ -1,35 +1,57 @@
-/* font-family */
-@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap");
-* {
-  font-family: "Quicksand", sans-serif;
+/* width and height properties */
+#box1 {
+  background-color: coral;
+  width: 500px;
+  height: 500px;
 }
 
-/* color */
-h3 {
-  color: coral;
+/* border */
+#box1 {
+  border-width: 10px;
+  border-style: solid;
+  border-color: cornflowerblue;
+  border-radius: 15px;
 }
 
-/* font-size */
-h3 {
-  font-size: x-large;
+/* margin */
+#box2 {
+  background-color: aquamarine;
+  height: 80%;
+  width: 80%;
+  /* margin-left: 200px; */
+  /* margin-top: 50px; */
+  /* margin: auto; */
 }
 
-/* font-weight */
-h4 {
-  font-weight: 700;
+/* padding  */
+#box1 {
+  margin: auto;
+  padding-top: 20px;
+  padding-left: 40px;
 }
 
-h4 {
-  text-align: center;
+/* position */
+#box2 {
+  position: relative;
+  top: 300px;
 }
 
-/* text-decoration */
-@counter-style pointer {
-  system: cyclic;
-  symbols: 🥇 🥈 🥉;
-  suffix: " ";
+/* z-index */
+#box2 {
+  z-index: -1;
 }
 
-li {
-  list-style-type: pointer;
+/* misc */
+div {
+  display: none;
+}
+
+/* background */
+body {
+  height: 100%;
+  background-color: beige;
+  background-image: url("/img/bg.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
